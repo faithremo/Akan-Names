@@ -1,8 +1,26 @@
-.intro{
-    align-items: center;
+.landingpage{
+    min-height: 100vh;
     background-color: slategrey;
 }
 
+.intro{
+    text-align: center;
+}
+
 .intro>h1{
-    color: slateblue;
+    color: rgb(145, 18, 118);
+}
+
+.intro>p{
+    font-style: italic;  
+
+}
+
+.lists{
+    align-items: flex;
+}
+
+ .lst1>ul>li{   
+    text-decoration: none;
+    padding-top: 2;
 }
