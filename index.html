@@ -15,7 +15,8 @@
     </div>
 
         <div class="lists">
-            <div class="lst1"></div>
+            
+            <div class="lst1">
                 <ul>
                     <h4>Male</h4>
                     <li>Monday-Kwadwo</li>
@@ -26,9 +27,9 @@
                     <li>Saturday-Kwame</li>
                     <li>Sunday-Kwasi</li>
                 </ul>    
-            </div>
+                </div>
 
-            <div class="lst1">
+            <div class="lst2">
                 <ul>
                     <h4>Female</h4>
                     <li>Monday-Adowa</li>
@@ -40,17 +41,26 @@
                     <li>Sunday-	Akosua</li>
                 </ul>
             </div>
+            
 
             <div class="form">
                 <h3>Fill In The form;</h3>
+                <form action="/action_page.php">
+                    <label for="date">Date of Birth:</label><br>
+                    <input type="date" id="date" name="date"><br><br> 
                 
-
-            </div>
-
+                    <label for="gender">Select Your gender:</label>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+            </div>            
         </div>
+            
+
+    </div>    
         
-    </div>
+</body>
+</html>    
    
 
-</body>
-</html>
