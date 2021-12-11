@@ -1,3 +1,8 @@
 .intro{
-    text-align: center;
+    align-items: center;
+    background-color: slategrey;
+}
+
+.intro>h1{
+    color: slateblue;
 }
