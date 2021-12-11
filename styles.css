@@ -1,6 +1,7 @@
 .landingpage{
     min-height: 100vh;
     background-color: slategrey;
+    cursor: pointer;
 }
 
 .intro{
@@ -8,19 +9,42 @@
 }
 
 .intro>h1{
-    color: rgb(145, 18, 118);
+    color: rgb(217, 221, 228);
+    padding-top: 70px;
 }
 
 .intro>p{
-    font-style: italic;  
+    font-style: italic;
+    padding-top: 80px; 
+    font-size: 4vh; 
 
 }
-
 .lists{
-    align-items: flex;
+    display:flex;
+    justify-content: space-around;
+    padding-top: 80px;
 }
 
- .lst1>ul>li{   
-    text-decoration: none;
-    padding-top: 2;
+
+
+.lst1{
+    color: white
 }
+
+.lst2{
+    color: white;
+}
+
+.form{
+    font
+}
+
+@media (max-width:600px) {
+    /* For tablets: */
+    .landingpage{
+      width: 80%;
+      padding: 0;
+    }
+}
+    
+
