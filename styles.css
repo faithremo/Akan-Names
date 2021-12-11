@@ -16,13 +16,13 @@
 .intro>p{
     font-style: italic;
     padding-top: 80px; 
-    font-size: 4vh; 
+    font-size: 3vh; 
 
 }
 .lists{
     display:flex;
     justify-content: space-around;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 
@@ -35,16 +35,13 @@
     color: white;
 }
 
-.form{
-    font
-}
 
-@media (max-width:600px) {
-    /* For tablets: */
-    .landingpage{
-      width: 80%;
-      padding: 0;
-    }
+@media  only screen and (max-width: 600px) {
+.landingpage{
+    width: 100%;
 }
+}
+    
+
     
 
