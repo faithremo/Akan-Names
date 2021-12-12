@@ -66,6 +66,8 @@ display_output{
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
+    height: 150px;
+     width: 80%;
 }
 
 
