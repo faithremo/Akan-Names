@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Names</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <div class="landingpage">
@@ -49,7 +48,7 @@
 
             <div class="form">
                 <h3>Fill In The Form;</h3>
-                <form id="akanNames">
+                <form name="akanNames" onsubmit="validate();">
                     <label for="date">Date of Birth:<br></label>
                     <input type="date" id="date" name="date"><br><br> 
                 
@@ -62,10 +61,11 @@
             </div> 
             
             <div id="display_output"></div>
-        </div>
-            
+        </div>            
 
-    </div>    
+    </div>  
+
+    <script src="script.js"></script>
         
 </body>
 </html>    
