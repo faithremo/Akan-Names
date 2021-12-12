@@ -24,7 +24,10 @@
     padding-top: 50px;
 }
 
-
+.flow{
+    display: flex;
+    justify-content:space-between;
+}
 
 .lst1{
     color: white;
@@ -57,9 +60,12 @@ button:hover{
     background-color: rgb(61, 112, 61);
 }
 
-.flow{
-    display: flex;
-    justify-content:space-between;
+display_output{
+    background-color: transparent;
+    border: groove;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
 
