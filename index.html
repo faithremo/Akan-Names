@@ -48,7 +48,7 @@
 
             <div class="form">
                 <h3>Fill In The Form;</h3>
-                <form name="akanNames" onsubmit="validate();">
+                <form id="akanNames">
                     <label for="date">Date of Birth:<br></label>
                     <input type="date" id="date" name="date"><br><br> 
                 
@@ -56,17 +56,18 @@
                     <select id="gender" name="gender">
                         <option value="male">Male</option>
                         <option value="Female">Female</option>
-                    </select><br><br> <br>
+                    </select><br><br>
                     <button type="submit">Submit</button>
             </div> 
             
-            <div id="display_output"></div>
-        </div>            
+        </div>    
+        
+        <div id="display_output"></div>
 
     </div>  
 
-    <script src="script.js"></script>
-        
+    <script src="script.js"></script>  
+
 </body>
 </html>    
    
