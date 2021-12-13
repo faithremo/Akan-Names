@@ -29,65 +29,65 @@ const Female_Names=["Adowa","Abenaa","Akua","Yaa","Afua","Ama","Akosua"];
 let BirthDay;
 
 if(d==0 && gender=="Male"){
-    BirthDay="Sunday";
+    BirthDay="Monday";
     Akan_Name= Male_Names[0];
 }
 else if (d==0 && gender=="Female"){
-    BirthDay="Sunday";
+    BirthDay="Monday";
     Akan_Name= Female_Names[0];
 }
 
 else if(d==1 && gender=="Male"){
-    BirthDay="Monday";
+    BirthDay="Tuesday";
     Akan_Name= Male_Names[1];
 }
 else if (d==1 && gender=="Female"){
-    BirthDay="Monday";
+    BirthDay="Tuesday";
     Akan_Name= Female_Names[1];
 }
 
 else if(d==2 && gender=="Male"){
-    BirthDay="Tuesday";
+    BirthDay="Wednesday";
     Akan_Name= Male_Names[2];
 }
 else if (d==2 && gender=="Female"){
-    BirthDay="Tuesday";
+    BirthDay="Wednesday";
     Akan_Name= Female_Names[2];
 }
 
 else if(d==3 && gender=="Male"){
-    BirthDay="Wednesday";
+    BirthDay="Thursday";
     Akan_Name= Male_Names[3];
 }
 else if (d==3 && gender=="Female"){
-    BirthDay="Wednesday";
+    BirthDay="Thursday";
     Akan_Name= Female_Names[3];
 }
 
 else if(d==4 && gender=="Male"){
-    BirthDay="Thursday";
+    BirthDay="Friday";
     Akan_Name= Male_Names[4];
 }
 else if (d==4 && gender=="Female"){
-    BirthDay="Thursday";
+    BirthDay="Friday";
     Akan_Name= Female_Names[4];
 }
 
 else if(d==5 && gender=="Male"){
-    BirthDay="Friday";
+    BirthDay="Saturday";
     Akan_Name= Male_Names[5];
 }
 else if (d==5 && gender=="Female"){
-    BirthDay="Friday";
+    BirthDay="Saturday";
     Akan_Name= Female_Names[5];
 }
 
 else if(d==6 && gender=="Male"){
-    BirthDay="Saturday";
+    BirthDay="Sunday";
     Akan_Name= Male_Names[6];
 }
 else if (d==6 && gender=="Female"){
-    BirthDay="Saturday";
+    BirthDay="Sunday";
     Akan_Name= Female_Names[6];
 }
 
