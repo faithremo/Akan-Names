@@ -27,17 +27,13 @@
 .flow{
     display: flex;
     justify-content:space-between;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
 }
 
 .lst1{
     color: white;
     padding: 20px;
 }
-
-.lst1:hover{
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
-}
-
 
 #gender{
     width: 155px;
@@ -60,14 +56,16 @@ button:hover{
     background-color: rgb(61, 112, 61);
 }
 
-display_output{
+#display_output{
     background-color: transparent;
-    border: groove;
+    border: dotted;
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
-    height: 150px;
-     width: 80%;
+    font-size: 20px;
+    height: 30px;
+     width: 45%;
+     float: right;
 }
 
 
