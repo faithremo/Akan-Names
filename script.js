@@ -1,6 +1,6 @@
-let akanNames=document.getElementByName("akanNames");
-akanNames.addEventListener("submit", (e)=>{
-    e.preventDefault();
+let akanNames=document.getElementById("akanNames");
+akanNames.addEventListener("submit", (evt)=>{
+    evt.preventDefault();
 
 
 Date_of_Birth=document.getElementById("date").value;
@@ -12,8 +12,8 @@ let year=Date_of_Birth.getFullYear();
 let month=Date_of_Birth.getMonth() +1;
 let day=Date_of_Birth.getDate();
 
-CC=year.toString().substr(0, 2);
-YY=year.toString().substr(2, 2);
+CC=year.toString().substr(0, 1);
+YY=year.toString().substr(2, 3);
 MM=month;
 DD=day;
 
@@ -34,66 +34,66 @@ if(d==0 && gender=="Male"){
     Akan_Name= Male_Names[0];
 }
 else if (d==0 && gender=="Female"){
-    DBirthDay="Monday";
+    BirthDay="Monday";
     Akan_Name= Female_Names[0];
 }
 
-else if(d==0 && gender=="Male"){
+else if(d==1 && gender=="Male"){
     BirthDay="Tuesday";
     Akan_Name= Male_Names[1];
 }
-else if (d==0 && gender=="Female"){
+else if (d==1 && gender=="Female"){
     BirthDay="Tuesday";
     Akan_Name= Female_Names[1];
 }
 
-else if(d==0 && gender=="Male"){
+else if(d==2 && gender=="Male"){
     BirthDay="Wednesday";
     Akan_Name= Male_Names[2];
 }
-else if (d==0 && gender=="Female"){
+else if (d==2 && gender=="Female"){
     BirthDay="Wednesday";
     Akan_Name= Female_Names[2];
 }
 
-else if(d==0 && gender=="Male"){
+else if(d==3 && gender=="Male"){
     BirthDay="Thursday";
     Akan_Name= Male_Names[3];
 }
-else if (d==0 && gender=="Female"){
+else if (d==3 && gender=="Female"){
     BirthDay="Thursday";
     Akan_Name= Female_Names[3];
 }
 
-else if(d==0 && gender=="Male"){
+else if(d==4 && gender=="Male"){
     BirthDay="Friday";
     Akan_Name= Male_Names[4];
 }
-else if (d==0 && gender=="Female"){
+else if (d==4 && gender=="Female"){
     BirthDay="Friday";
     Akan_Name= Female_Names[4];
 }
 
-else if(d==0 && gender=="Male"){
+else if(d==5 && gender=="Male"){
     BirthDay="Saturday";
     Akan_Name= Male_Names[5];
 }
-else if (d==0 && gender=="Female"){
+else if (d==5 && gender=="Female"){
     BirthDay="Saturday";
     Akan_Name= Female_Names[5];
 }
 
-else if(d==0 && gender=="Male"){
+else if(d==6 && gender=="Male"){
     BirthDay="Sunday";
     Akan_Name= Male_Names[6];
 }
-else if (d==0 && gender=="Female"){
+else if (d==6 && gender=="Female"){
     BirthDay="Sunday";
     Akan_Name= Female_Names[6];
 }
 
-let output=document.getElementById("display_output").innerHTML="Your Akan Name is" + Akan_Name + "as you were born on a"
-+ BirthDay + "!"
+let output=document.getElementById("display_output").innerHTML="Your Akan Name is " + Akan_Name + " as you were born on a "
++ BirthDay + " !"
 document.getElementById("akanNames").reset();
 
 });
